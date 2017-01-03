@@ -94,6 +94,8 @@ Look familar?
 
 <!--Almost exactly the same way we would seed our DB with Mongoose -->
 
+>Note: Rerunning the server now may throw an error like `Unhandled rejection SequelizeDatabaseError: relation "users" does not exist`.  This is expected, and should not affect your ability to complete the rest of the lab.
+
 ### Getting that user back, I *promise*
 
 #### Promises
