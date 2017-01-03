@@ -137,3 +137,4 @@ Congratulations! You have set up your first database connection with Sequelize a
 ## Resources
 
 - [Sequelize Docs](http://docs.sequelizejs.com/en/v3/)
+- [More about sync](http://sequelize.readthedocs.io/en/latest/api/sequelize/#sync)
