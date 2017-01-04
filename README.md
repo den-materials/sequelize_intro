@@ -1,3 +1,5 @@
+<!--Actually 9:02 -->
+
 <!--9:45 5 minutes -->
 
 # Sequelize
@@ -25,6 +27,8 @@ In other words, in the same way that Mongoose was the glue holding Mongo and JS 
 
 <!-- Catch-up -->
 
+<!--Actually 9:07 when turning over to devs -->
+
 <!--9:50 10 minutes -->
 
 ### Initial setup
@@ -44,6 +48,8 @@ Install `sequelize` with `npm` and `--save` it to your `package.json`.
 Do the same with `pg` and `pg-hstore`.
 
 Require `sequelize` into a variable called `Sequelize` (notice the capitalization--what kind of function do you think `Sequelize` is?).
+
+<!--Actually 9:33 when finished setup -->
 
 <!--10:05 5 minutes -->
 
@@ -116,6 +122,8 @@ Look familar?
 
 <!--Basically the same way we accessed DB with Mongoose except we're using a promise instead of a callback-->
 
+<!--Actually 9:59 when introing challenge -->
+
 <!--10:25 5 minutes -->
 
 ### Challenge
@@ -135,6 +143,8 @@ Congratulations! You have set up your first database connection with Sequelize a
 - What is Sequelize?
 - Can you name two differences in the code between Mongoose and Sequelize?
 <!--Examples include Mongoose we used callbacks, Sequelize uses promises, there aren't really any schemas, we use .define instead of new schema, we have to create the DB in psql and the table with .sync() (booo) -->
+
+<!--Actually 10:15 -->
 
 ## Resources
 
