@@ -1,6 +1,6 @@
-<!--Actually 9:02 -->
+<!--Actually 9:02 WDI2-->
 
-<!--9:45 5 minutes -->
+<!--9:05 5 minutes -->
 
 # Sequelize
 
@@ -27,9 +27,9 @@ In other words, in the same way that Mongoose was the glue holding Mongo and JS 
 
 <!-- Catch-up -->
 
-<!--Actually 9:07 when turning over to devs -->
+<!--Actually 9:07 WDI2 when turning over to devs -->
 
-<!--9:50 10 minutes -->
+<!--9:10 10 minutes -->
 
 ### Initial setup
 
@@ -39,7 +39,7 @@ Once this is all set up, you will need to create a PostgreSQL database.  To do t
 
 `CREATE DATABASE test_sequelize;`
 
-<!--10:00 5 minutes -->
+<!--9:20 5 minutes -->
 
 ### Sequelize setup
 
@@ -51,7 +51,7 @@ Require `sequelize` into a variable called `Sequelize` (notice the capitalizatio
 
 <!--Actually 9:33 when finished setup -->
 
-<!--10:05 5 minutes -->
+<!--9:25 5 minutes -->
 
 ### Connecting with Sequelize
 
@@ -63,7 +63,7 @@ var sequelize = new Sequelize('postgres://<localusername>@localhost:5432/test_se
 
 `console.log` this connection variable to see what we're working with.  A little daunting, right?  Well, for now the `options` object at the top tells us some helpful information.  Our `dialect` is `postgres`, the dialect we've been using in all our SQL labs.  Our `host` is `localhost` (our PC).  And our `port` is 5432 (the `postgres` port).
 
-<!-- 10:10 15 minutes -->
+<!-- 9:30 15 minutes -->
 
 ### Our first model
 
@@ -124,7 +124,7 @@ Look familar?
 
 <!--Actually 9:59 when introing challenge -->
 
-<!--10:25 5 minutes -->
+<!--9:45 5 minutes -->
 
 ### Challenge
 
@@ -132,7 +132,7 @@ Replace your "Hello Sequelize" response in your `'/'` route with a string includ
 
 **Bonus:** Can you send it as JSON or HTML?
 
-<!--10:30 5 minutes -->
+<!--9:50 5 minutes -->
 
 ### Closing thoughts
 
