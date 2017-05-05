@@ -1,5 +1,5 @@
 <!--Actually 9:02 WDI2-->
-
+<!--9:06 WDI3 -->
 <!--9:05 5 minutes -->
 
 # Sequelize
@@ -29,6 +29,7 @@ In other words, in the same way that Mongoose was the glue holding Mongo and JS 
 
 <!--Actually 9:07 WDI2 when turning over to devs -->
 
+<!--9:09 WDI3 -->
 <!--9:10 10 minutes -->
 
 ### Initial setup
@@ -39,6 +40,7 @@ Once this is all set up, you will need to create a PostgreSQL database.  To do t
 
 `CREATE DATABASE test_sequelize;`
 
+<!--9:20 WDI3 -->
 <!--9:20 5 minutes -->
 
 ### Sequelize setup
@@ -51,6 +53,7 @@ Require `sequelize` into a variable called `Sequelize` (notice the capitalizatio
 
 <!--Actually 9:33 when finished setup -->
 
+<!--9:26 WDI3 -->
 <!--9:25 5 minutes -->
 
 ### Connecting with Sequelize
@@ -63,7 +66,8 @@ var sequelize = new Sequelize('postgres://<localusername>@localhost:5432/test_se
 
 `console.log` this connection variable to see what we're working with.  A little daunting, right?  Well, for now the `options` object at the top tells us some helpful information.  Our `dialect` is `postgres`, the dialect we've been using in all our SQL labs.  Our `host` is `localhost` (our PC).  And our `port` is 5432 (the `postgres` port).
 
-<!-- 9:30 15 minutes -->
+<!--9:34 WDI3 -->
+<!-- 9:30 20 minutes -->
 
 ### Our first model
 
@@ -83,6 +87,7 @@ var User = sequelize.define('user', {
 Look familiar?
 
 <!--Basically like a schema in Mongoose -->
+<!--9:43 WDI3 -->
 
 ### Our first user
 
@@ -114,7 +119,7 @@ So if we want to find our user, we will run the following:
 
 ```js
 User.findOne().then(function (user) {
-    console.log(user.get('name'));
+    console.log(user.name);
 });
 ```
 
@@ -122,16 +127,19 @@ Look familar?
 
 <!--Basically the same way we accessed DB with Mongoose except we're using a promise instead of a callback-->
 
-<!--Actually 9:59 when introing challenge -->
+<!--Actually 9:59 when introing challenge WDI2 -->
 
-<!--9:45 5 minutes -->
+<!--9:50 5 minutes -->
 
 ### Challenge
+
+<!--9:53 turning over to devs WDI3 -->
 
 Replace your "Hello Sequelize" response in your `'/'` route with a string including your name and your favorite saying.
 
 **Bonus:** Can you send it as JSON or HTML?
 
+<!--10:00 WDI3 -->
 <!--9:50 5 minutes -->
 
 ### Closing thoughts
@@ -144,7 +152,8 @@ Congratulations! You have set up your first database connection with Sequelize a
 - Can you name two differences in the code between Mongoose and Sequelize?
 <!--Examples include Mongoose we used callbacks, Sequelize uses promises, there aren't really any schemas, we use .define instead of new schema, we have to create the DB in psql and the table with .sync() (booo) -->
 
-<!--Actually 10:15 -->
+<!--10:04 WDI3 -->
+<!--Actually 10:15 WDI2-->
 
 ## Resources
 
