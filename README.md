@@ -115,7 +115,7 @@ Sequelize uses promises to control async control-flow, the same way we saw with 
 
 #### Our code
 
-So if we want to find our user, we will run the following:
+So if we want to find our user, we will run the following inside of our route:
 
 ```js
 User.findOne().then(function (user) {
