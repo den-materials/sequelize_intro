@@ -1,6 +1,7 @@
 <!--Actually 9:02 WDI2-->
 <!--9:06 WDI3 -->
 <!--9:05 5 minutes -->
+<!-- WDI6 9:00 -->
 
 # Sequelize
 
@@ -42,7 +43,7 @@ Once this is all set up, you will need to create a PostgreSQL database.  To do t
 
 <!--9:20 WDI3 -->
 <!--9:20 5 minutes -->
-
+<!-- WDI6 9:16 -->
 ### Sequelize setup
 
 Install `sequelize` with `npm` and `--save` it to your `package.json`.
@@ -68,7 +69,7 @@ var sequelize = new Sequelize('postgres://<localusername>@localhost:5432/test_se
 
 <!--9:34 WDI3 -->
 <!-- 9:30 20 minutes -->
-
+<!-- WDI6 9:26 -->
 ### Our first model
 
 We're going to need to make our mark on the world, so let's save our name and our favorite saying so everyone knows we were here.  That would look like this:
@@ -106,6 +107,7 @@ Look familar?
 <!--Almost exactly the same way we would seed our DB with Mongoose -->
 
 >Note: Rerunning the server now may throw an error like `Unhandled rejection SequelizeDatabaseError: relation "users" does not exist`.  This is expected, and should not affect your ability to complete the rest of the lab.
+<!-- WDI6 9:40 -->
 
 ### Getting that user back, I *promise*
 
@@ -141,6 +143,7 @@ Replace your "Hello Sequelize" response in your `'/'` route with a string includ
 
 <!--10:00 WDI3 -->
 <!--9:50 5 minutes -->
+<!-- 10:05 WDI6 -->
 
 ### Closing thoughts
 
